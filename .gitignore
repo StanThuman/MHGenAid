@@ -1,0 +1,31 @@
+# Built app files
+*.apk
+*.ap_
+
+# Dex VM files
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+
+# Local config files (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# Android Studio
+*.iml
+.idea
+.gradle
+.build
+
+#res images
+app/src/main/res
+
+#NDK
+obj/

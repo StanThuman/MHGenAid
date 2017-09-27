@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="thuman.stan.monsterhunter.mhgenaid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UpdateActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WeaponActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Weapon">
+
+        </activity>
+        <activity android:name=".ArmorActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Armor">
+
+        </activity>
+
+        <activity android:name=".MonsterActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Monster">
+        </activity>
+
+        <activity android:name=".MonsterDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Monster Details">
+        </activity>
+
+        <activity android:name=".QuestActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Quest">
+
+        </activity>
+
+        <activity android:name=".MapActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Map">
+
+        </activity>
+
+        <activity android:name=".ItemActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Item">
+
+        </activity>
+
+
+        <activity android:name=".DecorationActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Decoration">
+        </activity>
+
+        <activity android:name=".WeaponDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Weapon Details">
+        </activity>
+
+        <activity android:name=".ArmorDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Armor Details">
+        </activity>
+    </application>
+
+</manifest>
